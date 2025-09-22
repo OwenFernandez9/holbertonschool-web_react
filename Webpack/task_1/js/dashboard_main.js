@@ -14,5 +14,4 @@ function updateCounter() {
 }
 
 const onClickDebounced = debounce(updateCounter, 500);
-
 $(document).on('click', '#startBtn', onClickDebounced);
