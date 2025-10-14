@@ -14,17 +14,13 @@ function App() {
       <div className="App-body">
         <p>Login to access the full dashboard</p>
 
-        <label>
-          Email
-        <input type="email" id="email" />
-        </label>
-
-        <label>
-          Password
-          <input type="password" id="password" />
-        </label>
-        
-        <button>OK</button>
+        <label htmlFor="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <br />
+        <label htmlFor="password">Password:</label>
+        <input type="password" id="password" name="password" />
+        <br />
+        <button type="button">OK</button>
       </div>
 
       <div className="root-notifications">
