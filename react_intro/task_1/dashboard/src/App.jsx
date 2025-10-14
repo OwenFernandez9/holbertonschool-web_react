@@ -5,9 +5,11 @@ import { getCurrentYear, getFooterCopy } from './utils';
 
 function App() {
   return (
-    <>
+    <div className='App'>
+      <Notifications />
+      
       <div className="App-header">
-        <img src={logo} alt="holberton logo" className="App-logo" />
+        <img src={logo} alt="Holberton logo" className="App-logo" />
         <h1>School dashboard</h1>
       </div>
 
@@ -15,16 +17,12 @@ function App() {
         <p>Login to access the full dashboard</p>
       </div>
 
-      <div className="root-notifications">
-        <Notifications />
-      </div>
-
       <div className="App-footer">
         <p>
           {getFooterCopy(false)} - {getCurrentYear()}
         </p>
       </div>
-    </>
+    </div>
   );
 }
 
