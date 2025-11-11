@@ -5,7 +5,7 @@ import { getCurrentYear, getFooterCopy } from './utils';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='root-notification'>
       <Notifications />
       
       <div className="App-header">
