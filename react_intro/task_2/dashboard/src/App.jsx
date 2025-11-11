@@ -12,6 +12,10 @@ function App() {
         <h1>School dashboard</h1>
       </div>
 
+      <div className="root-notifications">
+        <Notifications />
+      </div>
+      
       <div className="App-body">
         <p>Login to access the full dashboard</p>
 
@@ -24,9 +28,6 @@ function App() {
         <button>OK</button>
       </div>
 
-      <div className="root-notifications">
-        <Notifications />
-      </div>
 
       <div className="App-footer">
         <p>
