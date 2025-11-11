@@ -27,7 +27,7 @@ function App() {
           <label htmlFor="password">Password</label>
           <input placeholder="password" type="password" id="password" />
 
-          <button>OK</button>
+          <button type='button'>OK</button>
         </div>
 
 
