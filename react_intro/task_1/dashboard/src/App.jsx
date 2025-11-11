@@ -19,7 +19,7 @@ function App() {
 
       <div className="App-footer">
         <p>
-          {getFooterCopy(false)} - {getCurrentYear()}
+          {getFooterCopy()} - {getCurrentYear(true)}
         </p>
       </div>
     </div>
