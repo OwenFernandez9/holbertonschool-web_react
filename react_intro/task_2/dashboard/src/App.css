@@ -1,0 +1,56 @@
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+
+#root {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: #111;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.root-notifications {
+  border:dotted 2px red;
+} 
+
+.App-header {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 20px 24px;
+  border-bottom: 4px solid #e1003c;
+}
+
+.App-logo {
+  height: 100px;
+  width: auto;
+  object-fit: contain;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 44px;
+  font-weight: 800;
+  color: #e1003c;
+  line-height: 1.1;
+}
+
+.App-body {
+  padding: 24px;
+  min-height: 40vh;
+}
+
+.App-body p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.App-footer {
+  margin-top: auto;
+  border-top: 4px solid #e1003c;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 16px;
+  font-style: italic;
+  background: #fff;
+}
