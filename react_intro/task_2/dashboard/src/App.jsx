@@ -6,14 +6,14 @@ import { getCurrentYear, getFooterCopy } from './utils';
 
 function App() {
   return (
-      <>
+      <div>
         
         <div className="root-notifications">
           <Notifications />
         </div>
 
         <div className="App-header">
-          <img src={logo} alt="holberton logo" className="App-logo" />
+          <img src={logo} alt="holberton logo"/>
           <h1>School dashboard</h1>
         </div>
 
@@ -36,7 +36,7 @@ function App() {
             Copyright {getFooterCopy(false)} - {getCurrentYear()}
           </p>
         </div>
-      </>
+      </div>
     )
   }
 
